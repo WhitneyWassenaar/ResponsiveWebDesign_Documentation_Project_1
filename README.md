@@ -1,5 +1,4 @@
-# Exercise_1_Responsive-Webdesign
-This is an exercise to practice responsive webdesign for my portfolio.
+# MDN_web-project_MyFirstWebsite
+This is a tutorial from Modzilla Developer Network
+Source: https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website
 
-## About
-This exercise is created by myself. By doing this exercise I'm trying to understand more about what responsive webdesign is and how to apply it in future projects.
