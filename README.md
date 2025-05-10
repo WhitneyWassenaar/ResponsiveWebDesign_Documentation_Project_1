@@ -1,2 +1,2 @@
-# Exercise_1.ResponsiveWebdesign
+# Exercise_1_Responsive-Webdesign
 This is an exercise to practice responsive webdesign for my portfolio.
