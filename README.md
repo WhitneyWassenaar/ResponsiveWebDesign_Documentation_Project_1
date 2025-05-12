@@ -11,7 +11,7 @@ But first I would like to dive into responsive webdesign. That's a skill I want 
 **To do**
 - Understanding basic HTML and CSS
 
-## Sunday | 12-5-2025 } 00:18
+## Sunday | 12-5-2025 | 00:18
 When studying the basics of HTML and CSS I have to admit it is kind of addicting wanting to know everything. So I’m actively trying my best to find the answer on my own but a lot of times I really need help of other enthusiastic and fanatic developers.
 
 After a lot of minutes (almost 30 minutes) trying to find out what I did wrong, I only found out the solution to the problem.
