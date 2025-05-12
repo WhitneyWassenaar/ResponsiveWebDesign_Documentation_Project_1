@@ -46,14 +46,24 @@ But no. It was the anchor link that was causing the problem. I found out that ad
 Answer: 
 >1. Because the anchor element has by default a display of inline there’s extra space reserved for descenders of a text. When an image is enclosed in an anchor element, it does not use the reserved space for descenders. That's why you see "extra" space at the bottom of the image.
 >2. Block level elements take up as much space as possible by default . In this case setting display to block of the image removes the inline property of the anchor element so that the image can take up as much space as possible by default. Each block level element will start a new line on the page, stacking down the page. In addition to stacking vertically, block level elements will also take up as much horizontal space as possible.
+
+Now I know that an image can also be seen as an inline-block element.
 <hr>
 
-### Next question
-Now I know that an image can also be seen as an inline-block element.
+### Why do an empty span (inline-block) element and an image expand upwards when increasing the height, while a span element containing text expands downwards when increasing the height?
 
-* I  don't understand why the other 2 yellow inline-block elements are getting below the baseline/descenders and the image not?
+  <img src="https://global.discourse-cdn.com/freecodecamp/original/4X/1/7/c/17c7c71ebcab4294c98baaf7941c1ace8e07864f.png">
+  
+Answer:
+>1. An image is a replaced element. It's an element whose content can not be styled by CSS, the content is external just like video and input element for example. You can give it width and height but because it’s aligned to the baseline, it will grow upwards. When an empty span element has display set to inline-block, the width and height will be present because of the "block" , and stays on the baseline because of "inline".
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/0/d/f/0dfb5343958463b85a9c0d1cb33a6b147f9dabf0.png">
 
-*Adding height to the yellow inline-block elements expands the height downwards while adding height to the image expands the height upwards.*
+>2. When you add the text to the span element, the browser aligns that text to the baseline. It moves downward so that the baseline of the surrounding text matches that of the span’s inner text.
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/d/b/8/db80f4c8dc1a2cac84542e186c6397a9800fbb3f.png">
+
+<hr>
+
+
 
 
 
