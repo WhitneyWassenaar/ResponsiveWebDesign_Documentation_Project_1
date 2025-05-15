@@ -63,6 +63,12 @@ Answer:
 
 <hr>
 
+## Thursday | 15-5-2025 | 15:23
+### Diving in responsive web design
+This is the part I have to invest more time in understanding the basics of flexbox and grid in combination with mediaqueries. I came to the conslusion that I don't like the way MDN is teaching responsive webdesign. The layout and instructions are a bit unclear to my opinion and I found the website: <a href="https://web.dev/learn/design/welcome" alt="Link to webpage">www.web.dev</a> having a much better way of showing instructions and examples.
+
+
+
 
 
 
