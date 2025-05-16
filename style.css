@@ -1,153 +1,291 @@
-/*CSS:Cascading Style Sheets. It is a stylesheet language.*/
-
-/*p is a selector, inside the curly braces {} is called a declaration and sets a value for a specific property, color is a property, rgb(21, 60, 122) is the value */
-/*The whole structure is called a ruleset*/
-/*
-    p {
-        color:rgb(21, 60, 122);
-        width: 500px;
-        border: 1px solid black;
-    }
-*/
+* {
+    margin: 0;
+    padding:0;
+    font-family:barlow;
+}
 
 body {
-    font-size: 20px;
-    font-family:"Barlow Condensed", sans-serif;
-    /*background-color: rgb(132, 121, 109);*/
-    background-image: linear-gradient(rgb(48, 17, 10), rgb(121, 61, 36), rgb(189, 107, 25), rgb(255, 196, 108));
-    /*background-image:linear-gradient(rgb(255, 196, 108), rgb(189, 107, 25), rgb(121, 61, 36),rgb(48, 17, 10));*/
-    margin: 0;
-  
+    background-image: linear-gradient(rgb(252, 208, 107), rgb(250, 191, 142), rgb(252, 175, 98), rgb(255, 215, 155));
 }
 
-#back {
-    display: flex;
-    align-content: center;
-    padding: 20px;
-    margin:auto;
-    background-color: rgba(202, 195, 187, 0.315);
-    width: 65%;
-    border-radius: 2em 0 2em 2em;
+.wrapper {
+    width: 100%;
 }
 
-
-h1 {
-    font-size: 50px;
-    margin: 30px;
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-
-
+h1, h2 {
+  text-align: center;
+ 
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 6vw;
 }
 
-h3{
-    font-size: 25px;
+.img-start {
+    width: 100%;
+    display: none;
 }
 
-p, li {
-    font-size: 20px;
-    line-height: 1.3;
-    letter-spacing: 0.4px;
-    
-    
+.basic-info {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.235);
 }
 
-#title {
+.basic-info img {
+    width: 100%;
+}
+
+.basic-info  p {
+   padding: 10px 10px 10px;
+}
+
+.last-info {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.last-info img {
+    width: 100%;
+}
+
+.last-info  p {
+     padding: 10px 10px 10px;
+  
+}
+
+aside {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin-bottom:40px ;
+    flex-direction: column;
+    width: 100%;
 }
 
-#title img {
+aside ul, h3{
+    padding: 10px 10px 10px;
+}
+aside {
+    margin-top: 40px;
+    border:1px solid black;
+    width: 60%;
     border-radius: 2em;
-  
-
+    background-color: rgba(255, 255, 255, 0.235);
 }
-
-#info {
+.asidecontainer {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start ;
-    align-items: flex-start;
-    border: solid rgba(0, 0, 0, 0.482) 2px;
-    border-radius: 2.1em;
-    background-color: rgba(255, 255, 255, 0.212);
-  
+    align-items: center;
+    justify-content: center;
 }
 
-#info img {
-    border-radius: 2em 0 0 2em;
-    display: block;
-}
-#infotext h2 {
-     margin:20px;
-}
-    
-
-
-
-
-
-
-
-#characteristics {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content:flex-start ;
-    align-items: flex-start;
-    border: 2px solid rgba(0, 0, 0, 0.482);
-    border-radius: 2.1em;
-    background-color: rgba(255, 255, 255, 0.212);
-    
-}
-
-#characteristics img {
-   border-radius: 0 2em 0 2em;
-   display: block;
-}
-
-
-
-#infotext2 h2, h3, p, ul {
-  margin:20px;
-    
-}
-
-a {
-    text-decoration: none;
-    color: black;
-
-}
-
-#check {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start ;
-    align-items: flex-start;
-    border: 2px solid rgba(0, 0, 0, 0.482);
-    border-radius: 2.1em;
-    background-color: rgba(255, 255, 255, 0.212);
-}
-
-#check h4 {
-    margin: 20px;
-}
-
-.done{
-    color:darkgreen;
-    text-decoration: line-through solid black 3px;
-}
 footer {
+    padding: 30px 10px 10px;
+    font-size: 1em;
     text-align: center;
 }
 
+@media only screen and (min-width:768px) {
+.wrapper {
+    width: 600px;
+    margin:0 auto;
+}
 
-/*QUESTIONS
+.img-start {
+    display:block;
+    width: 100%;
+    border-radius: 2em;
+    margin-bottom: 20px;
+}
 
-1. In the tutorial I see that there is a possibility to set a background-color to the html element. I thought the background-color should be set in the body. Why would I set background-color in html element?*
-ANSWER: It is common practise to apply background-color and other properties to the body. The main *visual* content is in the body. */
+.basic-info img {
+     border-radius: 2em 2em 0 0;
+}
+
+.basic-info {
+    margin: 20px 0px 0px;
+    border: 1px solid  black;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.last-info {
+    margin: 20px 0px 0px;
+    border: 1px solid  black;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.last-info img {
+    border-radius: 2em 2em 0 0;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 10px;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+aside {
+    margin-top: 40px;
+    border:1px solid black;
+    width: 60%;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+.asidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media only screen and (min-width:1000px) {
+    .wrapper {
+        width: 900px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+aside ul, li {
+    font-size: 1.4em;
+}
+
+footer {
+    font-size: 1em;
+}
+aside {
+    margin-top: 40px;
+    border:1px solid black;
+    width: 60%;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+.asidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media only screen and (min-width:1200px) {
+    .wrapper {
+        width: 1600px;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 4em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.15em;
+    }
+
+    .img-start {
+    display:block;
+    width: 100%;
+    margin-bottom:100px;
+}
+
+.basic-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px 0px;
+    border: 1px solid  black;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.basic-info p {
+    font-size: 1.2em;
+}
+
+.basic-info img {
+    display: block;
+    border-radius: 2em 0 0 2em;
+}
+
+figure {
+    flex:1;
+}
+
+.last-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin: 20px 0px 0px;
+    border: 1px solid  black;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.last-info p {
+   font-size: 1.2em;
+}
+
+.last-info img {
+    display: block;
+    border-radius: 0 2em 2em 0;
+}
+
+.text1 {
+    flex:1;
+}
+
+aside h3, ul {
+    font-size: 1em;
+}
+
+li {
+    font-size: 0.7em;
+}
+
+aside {
+    margin-top: 40px;
+    border:1px solid black;
+    width: 20%;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.235);
+}
+
+.asidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: 0.7em;
+}
+
+}
