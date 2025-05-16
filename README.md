@@ -73,7 +73,7 @@ When I looked at the code of my website, I felt a little bit lost. When reading 
 
 This time I used flexbox to organise the elements. I"ll try grid in another project.
 
-You can view the project website <a href="https://codepen.io/collection/YwPReM](https://codepen.io/Wassenaar/full/raaRKxx">here</a>
+You can view the project website <a href="https://codepen.io/Wassenaar/full/raaRKxx">here</a>
 
 
 
