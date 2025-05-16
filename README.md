@@ -64,8 +64,16 @@ Answer:
 <hr>
 
 ## Thursday | 15-5-2025 | 15:23
-### Diving in responsive web design
+### Diving into responsive web design
 This is the part I have to invest more time in understanding the basics of flexbox and grid in combination with mediaqueries. I came to the conslusion that I don't like the way MDN is teaching responsive webdesign. The layout and instructions are a bit unclear to my opinion and I found the website: <a href="https://web.dev/learn/design/welcome" alt="Link to webpage">www.web.dev</a> having a much better way of showing instructions and examples.
+
+## Friday | 16-5-2025 | 13:44
+### My first responsive websiterela
+When I looked at the code of my website, I felt a little bit lost. When reading the documentation about responsive webdesign, I knew that I had to start over. According to web.dev's introduction article: https://web.dev/learn/design/intro. My design was from the year 2000, a fixed width design :). So I had to change my mind and needed to learn working with relative positions and sizes. I had to find a workflow I could easily understand. This video helped me a lot understanding the basics of one of the many responsive webdesign workflow. The one I know now is working from mobile device width to I-pad and then to desktop. <br>This was a useful video: https://www.youtube.com/watch?v=ZYV6dYtz4HA.
+
+You can view the project website <a href="https://codepen.io/collection/YwPReM">here</a>
+
+
 
 
 
