@@ -1,10 +1,10 @@
 # MDN_web-project_MyFirstWebsite-Documentation
 This is a documentation to follow my study progress.
-I follow the "Your first website" tutorial from Mozilla Developer Network <br>
-Source: https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website
+I follow the <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website">"Your first website" tutorial</a> from Mozilla Developer Network <br>
+ 
 
 ## Saturday | 10-5-2025 | 23:10
-In the afternoon I started following the tutorial about building my first website. I already knew a lot about the basics of HTML and CSS. But when I moved to JavaScript I went in to a bit of trouble. The code on the website of MDN did not work on my website and I didn't know what was causing this. Then after a while I saw that there was a difference in declaration between the codes. I still haven't figured how JavaScript actually works. I made comments in my code to remind myself what I was thinking at that moment or writing down notes or questions to not forget important info.
+In the afternoon I started following the tutorial about building my first website. I already knew a lot about the basics of HTML and CSS. But when I moved to JavaScript I went in to a bit of trouble. The code on the website of MDN did not work on my website and I didn't know what was causing this. Then after a while I saw that there was a difference in declaration between the codes. I still haven't figured how JavaScript actually works. 
 
 But first I would like to dive into responsive webdesign. That's a skill I want to master before moving on to JavaScript.
 
@@ -69,11 +69,36 @@ This is the part I have to invest more time in understanding the basics of flexb
 
 ## Friday | 16-5-2025 | 13:44
 ### My first responsive website
-When I looked at the code of my website, I felt a little bit lost. When reading the documentation about responsive webdesign, I knew that I had to start over. According to web.dev's introduction article: https://web.dev/learn/design/intro. My design was from the year 2000, a fixed width design :). So I had to change my mind and needed to learn working with relative positions and sizes. I had to find a workflow I could easily understand. This video helped me a lot understanding the basics of one of the many responsive webdesign workflow. The one I know now is working from mobile device width to I-pad and then to desktop. <br>This was a useful video: https://www.youtube.com/watch?v=ZYV6dYtz4HA.
+When I looked at the code of my website, I felt a little bit lost. When reading the documentation about responsive webdesign, I knew that I had to start over. According to web.dev's <a href="https://web.dev/learn/design/intro">introduction article</a> . My design was from the year 2000, a fixed width design :). <br><br>So I had to change my mind and needed to learn working with relative positions and sizes. I had to find a workflow I could easily understand. <br> <a href="https://www.youtube.com/watch?v=ZYV6dYtz4HA">This video</a> helped me a lot understanding the basics of one of the many responsive webdesign workflows. The one I know now is working from mobile device width to I-pad and then to desktop. <br><br>
 
 This time I used flexbox to organise the elements. I"ll try grid in another project.
 
 You can view the project website <a href="https://codepen.io/Wassenaar/full/raaRKxx">here</a>
+
+## Saturday | 17-5-2025 | 22:05
+### Finishing my first responsive website
+A member of the FreeCodeCamp forum replied on <a href="https://forum.freecodecamp.org/t/need-feedback-for-my-project/747401">my topic</a> where I asked for feedback on my project, they replied with : 
+>If you using padding, consider using the calc() function to use 100% of the viewport, minus the left and right padding. I also noticed horizontal scrolling.
+
+I fixed the horizontal scrolling where the breakpoint for desktop version was too early. I didn't know anything about the calc() function. <br><br>I started watching a <a href="https://www.youtube.com/watch?v=x7EWFoRzAkk">video</a> explaining what the calc() function does.  It is actually pretty simple.
+>calc() is a function to calculate.
+
+I also learned that it is possible to create variables in CSS too. In the next project I'll try to inplement the calc() function when it's needed. I did not inplement it in the current project. <br>
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/7/a/3/7a379255e98877ed36ec43c098ed2037e6f3a31c.png" alt="screenshot of example calc() function">
+
+### Final result
+This website is responsive now. I am pleased with how it looks like and how it responds. But, I know the code could be cleaner and I could have put more thought about the design of the webpage. The main goal of this project was that I understand the basics of responsive web design. I think I succeeded. There were times that I thought: <i>"How could I ever fix this problem I'm having now with my code?"</i>. But if I take enough time, ask substantive questions, it will pay off at some point. I can say I am proud of myself for this little victory. <br><br>
+
+
+Full size desktop size
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/a/4/a/a4a177486c8ac4bed4483d6b08fee8add0aabae0.jpeg">
+
+I-pad size<br>
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/d/a/c/dac4b7e3dfc0d3be55cfaae88cb51327597dbb0f.png">
+
+Mobile size<br>
+<img src="https://global.discourse-cdn.com/freecodecamp/original/4X/3/d/f/3df3e899654bdd9dbce4b8e98dd39ed8b9313cff.png">
+
 
 
 
