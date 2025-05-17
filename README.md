@@ -1,4 +1,4 @@
-# MDN_web-project_MyFirstWebsite-Documentation
+# ResponsiveWebDesign_Documentation_Project_1
 This is a documentation to follow my study progress.
 I follow the <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website">"Your first website" tutorial</a> from Mozilla Developer Network <br>
  
