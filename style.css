@@ -10,15 +10,20 @@ body {
 
 .wrapper {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
 }
 
 h1, h2 {
   text-align: center;
- 
+   
 }
 
 h2 {
-    font-size: 6vw;
+    font-size: 2em;
 }
 
 .img-start {
@@ -27,25 +32,44 @@ h2 {
 }
 
 .basic-info {
-    width: 100%;
+    width: 93%;
+    text-align: center;
+    border-radius: 2em;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.235);
+    margin-bottom:20px ;
+    
+}
+/*.basic-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px 0px;
+    border: 1px solid  black;
+    border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.235);
 }
-
+    */
 .basic-info img {
     width: 100%;
-}
+    border-radius: 2em 2em 0 0;
+    }
+
 
 .basic-info  p {
    padding: 10px 10px 10px;
 }
 
 .last-info {
-    width: 100%;
+    width: 93%;
+     border-radius: 2em;
+    border: 1px solid black;
     background-color: rgba(255, 255, 255, 0.235);
 }
 
 .last-info img {
     width: 100%;
+     border-radius: 2em 2em 0 0;
 }
 
 .last-info  p {
@@ -67,7 +91,7 @@ aside ul, h3{
 aside {
     margin-top: 40px;
     border:1px solid black;
-    width: 60%;
+    width: 100%;
     border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.235);
 }
@@ -99,6 +123,7 @@ footer {
 
 .basic-info img {
      border-radius: 2em 2em 0 0;
+     width: 100%;
 }
 
 .basic-info {
@@ -136,7 +161,7 @@ footer {
 aside {
     margin-top: 40px;
     border:1px solid black;
-    width: 60%;
+    width: 100%;
     border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.235);
 }
@@ -147,7 +172,7 @@ aside {
     justify-content: center;
 }
 }
-
+/*
 @media only screen and (min-width:1000px) {
     .wrapper {
         width: 900px;
@@ -172,10 +197,20 @@ aside ul, li {
 footer {
     font-size: 1em;
 }
+  .basic-info {
+        width: 100%;
+    }
+
+.last-info {
+    width: 100%;
+}
+
+
+
 aside {
     margin-top: 40px;
     border:1px solid black;
-    width: 60%;
+    width: 100%;
     border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.235);
 }
@@ -186,8 +221,8 @@ aside {
     justify-content: center;
 }
 }
-
-@media only screen and (min-width:1200px) {
+*/
+@media only screen and (min-width:1656px) {
     .wrapper {
         width: 1600px;
         flex-wrap: wrap;
@@ -205,6 +240,7 @@ aside {
         font-size: 2em;
     }
 
+  
     p {
         font-size: 1.15em;
     }
@@ -222,6 +258,7 @@ aside {
     margin: 10px 0px 0px;
     border: 1px solid  black;
     border-radius: 2em;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.235);
 }
 
@@ -272,7 +309,7 @@ li {
 aside {
     margin-top: 40px;
     border:1px solid black;
-    width: 20%;
+    width: 100%;
     border-radius: 2em;
     background-color: rgba(255, 255, 255, 0.235);
 }
